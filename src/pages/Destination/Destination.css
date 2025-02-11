@@ -1,0 +1,35 @@
+.destination-container{
+    background: url(../../assets/img/destination-bg.png) no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.pick-destination-text-content{
+    display: flex;
+    margin-right: 900px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.number-europa{
+    color: grey;
+    margin-right: 25px;
+}
+
+.pick{
+    font-weight: lighter;
+}
+
+.europa-img{
+    margin-right: 850px;
+}
