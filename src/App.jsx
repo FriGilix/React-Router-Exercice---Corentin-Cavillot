@@ -13,8 +13,11 @@ import Invitation from './pages/Invitation/Invitation'
 function App() {
 
 
+
+
   return (
     <>
+    <Navbar />
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/destination/" element={<Destination/>}/>

@@ -1,14 +1,68 @@
 .crew-container{
     background: url(../../assets/img/crew-bg.png) no-repeat;
     height: 100vh;
-    width: 100vw;
     background-size: cover;
     background-position: center;
     color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.titre{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+
+.number-crew{
+    font-size: px;
+    letter-spacing: 2px;
+    color: rgb(124, 124, 124);
+    margin-bottom: 20px;
+}
+
+.crew-content{
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
+}
+
+.crew-text{
+    max-width: 500px;
+    margin-bottom: 80px;
+    padding: 150px;
+}
+
+.metier{
+    font-size: 28px;
+    color: rgb(221, 237, 255);
+    letter-spacing: 3px;
+    font-family: serif;
+    font-weight: lighter;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: serif;
+    font-weight: lighter;
+}
+
+.bio{
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+}
+
+.crew-image img{
+    max-width: 300px;
+    height: auto;
+    margin-top: 499px;
 }

@@ -1,0 +1,120 @@
+.invitation-container{
+    background: url(../../assets/img/space_love-wallpaper-1920x1080.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.invitation-text-content{
+    max-width: 35%;
+    text-align: left;
+    margin: 100px;
+}
+
+.invitation-sous-titre{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: lighter
+}
+
+.invitation-titre{
+    font-size: 150px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: serif
+}
+
+.invitation-paragraph{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.invitation-button-container{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.invitation-button{
+    background-color: rgb(187, 66, 157);
+    box-shadow: 0 4px 16px rgba(163, 33, 152, 0.5);
+    color: white;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.invite-button{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #c44cc4;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.invite-button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8);
+}
+
+.love-letter{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.close-button{
+    margin-top: 10px;
+    background: #c44cc4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.close-button:hover{
+    background: #a338a3;
+}
+
+

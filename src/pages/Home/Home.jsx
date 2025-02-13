@@ -9,7 +9,7 @@ export default function Home() {
     <Navbar/>
     <div className='home-text-content'>
       <h2 className='sous-titre'>So, you want to travel to</h2>
-      <h1 className='titre'>SPACE</h1>
+      <h1 className='home-titre'>SPACE</h1>
       <div className='paragraph'>
       <p>Let's face it; if you want to go to space, you might
          as well genuinely go to outer space and not hover kind of on the
