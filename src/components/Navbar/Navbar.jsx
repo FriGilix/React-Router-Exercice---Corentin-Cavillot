@@ -13,11 +13,11 @@ export default function Navbar() {
       </div>
       <div className='menu'>
             <ul>
-                <li><NavLink to="/" className={({ isActive}) => "nav-link" + (isActive ? " selected" : "")}>00 HOME</NavLink></li>
-                <li><NavLink to="/destination/" className={({ isActive}) => "nav-link" + (isActive ? " selected" : "")}>01 DESTINATION</NavLink></li>
-                <li><NavLink to="/crew" className={({ isActive}) => "nav-link" + (isActive ? " selected" : "")}>02 CREW</NavLink></li>
-                <li><NavLink to="/technology" className={({ isActive}) => "nav-link" + (isActive ? " selected" : "")}>03 TECHNOLOGY</NavLink></li>
-                <li><NavLink to="/invitation" className={({ isActive}) => "nav-link" + (isActive ? " selected" : "")}>04 INVITATION</NavLink></li>
+                <li><NavLink to="/" className={({ isActive}) => "nav-link" + (isActive ? " selected" : "")}><span className='number-nav'>00</span> HOME</NavLink></li>
+                <li><NavLink to="/destination/" className={({ isActive}) => "nav-link" + (isActive ? " selected" : "")}><span className='number-nav'>01</span> DESTINATION</NavLink></li>
+                <li><NavLink to="/crew" className={({ isActive}) => "nav-link" + (isActive ? " selected" : "")}><span className='number-nav'>02</span> CREW</NavLink></li>
+                <li><NavLink to="/technology" className={({ isActive}) => "nav-link" + (isActive ? " selected" : "")}><span className='number-nav'>03</span> TECHNOLOGY</NavLink></li>
+                <li><NavLink to="/invitation" className={({ isActive}) => "nav-link" + (isActive ? " selected" : "")}><span className='number-nav'>04</span> INVITATION</NavLink></li>
             </ul>
       </div>
     </nav>

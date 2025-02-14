@@ -53,3 +53,7 @@
 .selected{
     border-bottom: 2px solid white;
 }
+
+.number-nav{
+    color: rgb(255, 160, 255);
+}
